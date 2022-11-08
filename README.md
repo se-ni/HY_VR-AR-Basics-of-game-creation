@@ -1,4 +1,4 @@
-## *VR-AR-Term-Project*
+## *VR-AR-Basics of Game Creation-Term-Project*
 ### :video_game:&nbsp;&nbsp;**Term Project for 2019**&nbsp;&nbsp;:video_game:
 **Team Members:** 박세은, 윤희연, 최애림
 
