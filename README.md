@@ -1,11 +1,12 @@
-# *VR-AR-Term-Project*
-### :video_game:&nbsp;&nbsp;**2019학년도 2학기 텀 프로젝트**&nbsp;&nbsp;:video_game:
+## *VR-AR-Term-Project*
+### :video_game:&nbsp;&nbsp;**Term Project for 2019**&nbsp;&nbsp;:video_game:
+**Team Members:** 박세은, 윤희연, 최애림
 
 
-**- Title : 요리의 신**
+**- Title :** 요리의 신
 
 
-**- 구현 툴 : Unity 3D**
+**- 구현 툴 :** Unity 3D
 
 
 **- 주요 구현 기능** 
