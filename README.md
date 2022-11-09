@@ -19,44 +19,62 @@
 
 **- 주요 구현 기능**        
 
-1. 햄버거 쌓기 게임 : 배열을 이용하여 사용자가 입력한 햄버거 재료 순서를 저장하고, 정답 레시피랑 비교하는 코드
-              
-              ```c#
-              if(Input.GetKeyDown(KeyCode.Return) // Enter
-              {
-	                  if(burger[0]== answer[0] && burger[1]== answer[1] && burger[2]== answer[2] && burger[3]== answer[4] && answer[5] && burger[5] == answer[5])  
-	                {
-		                bulgogi_cnt++;
-		                for(int I = 0 ; I < 4 ; j++)
-		                  {
-			                  burger[i] = 0;
-		                  }
-		                  burger[4] = 7;
-		                  burger[5] = 7;
-	                }
+1. 햄버거 쌓기 게임 :
 
-	            if(burger[0]== answer[0] && burger[1]== answer[2] && burger[2]== answer[3] && burger[3]== answer[4] && burger[4] == answer[5] && burger[5] == answer[5])  
-	            {
-		            cheeze_cnt++;
-		            for(int I = 0 ; I < 4 ; j++)
-		            {
-			          burger[i] = 0;
-		            }
-		            burger[4] = 7;
-		            burger[5] = 7;
-	              }
-              …
-              }
-```
-  
-                                충돌하는 햄버거의 재료를 맨 아래의 빵에 자식으로 설정하여 판별 후 햄버거재료(자식)이 사라지는 코드 구현
+
+- 배열을 이용하여 사용자가 입력한 재료 순서를 저장하고, 정해 놓은 답이랑 비교하는 코드
+	<details>
+	<summary>코드</summary>
+
+	``` C
+	if(Input.GetKeyDown(KeyCode.Return) // Enter
+		{
+			if(burger[0] == answer[0] && burger[1] == answer[1] && burger[2] == answer[2]
+				&& burger[3] == answer[4] && burger[4] == answer[5] && burger[5] == answer[5])  
+			{
+				bulgogi_cnt++;
+				for(int i = 0 ; i < 4 ; i++)
+					{
+					burger[i] = 0;
+					}
+			}
+		}
+	```
+	</details>
+           
+- 충돌하는 햄버거의 재료를 맨 아래의 빵에 자식으로 설정하여 판별 후 햄버거재료(자식)이 사라지는 코드 구현
+	<details>
+	<summary>코드</summary>
+
+	``` C
+	Public class Colli : MonoBehaviour
+	{
+		GameObject base bread = null ;
+		void Start()
+		{
+			base bread = GameObject.Find(“base bread”);
+		}
+
+		void OnCollisionEnter(Collision coll)
+		{
+			this.transform.parent = base bread.transform;
+		}
+		
+		...
+
+		foreach(Transform child in transform)
+		{
+			GameObject.Destroy(child.gameObject);
+		}
+		//초기화
+		i=0;
+	}
+	```
+	</details>
               
-              2. Canvas를 이용한 NPC 대화 창 및 버튼 클릭 이벤트(장면 전환 등) 코드 구현
+2. Canvas를 이용한 NPC 대화 창 및 버튼 클릭 이벤트(장면 전환 등) 코드 구현
               
 **- 구현시 어려웠던 점** 
-  
-              1. 햄버거 게임 : 부모-자식 없애기
-              
-              2. Main Scene 의 Character 움직임 구현
-              
-              3. 잡채 만들기 게임 마우스 드래그 구현
+1. 햄버거 게임 : 부모-자식 없애기
+2. Main Scene 의 Character 움직임 구현
+3. 잡채 만들기 게임 마우스 드래그 구현
