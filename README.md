@@ -73,6 +73,70 @@
 	</details>
               
 2. Canvas를 이용한 NPC 대화 창 및 버튼 클릭 이벤트(장면 전환 등) 코드 구현
+	<details>
+	<summary>코드</summary>
+
+	``` C
+	public class Dialogue
+	{
+		[TextArea]
+		public string dialogue;
+		public Sprite cg;
+	}
+
+	public class changeScene1 : MonoBehaviour
+	{
+		[SerializeField] private SpriteRenderer sprite_StandingCG;
+		[SerializeField] private SpriteRenderer sprite_DialogueBox;
+		[SerializeField] private Text txt_Dialogue;
+
+		private bool isDialogue = false;
+		private int cnt = 0;
+		[SerializeField] private Dialogue[] dialogue;
+
+		private void OnOff(bool _flag)
+		{
+			sprite_DialogueBox.gameObject.SetActive(_flag);
+			sprite_StandingCG.gameObject.SetActive(_flag);
+			txt_Dialogue.gameObject.SetActive(_flag);
+			isDialogue(_flag);
+		}
+
+		private void NextDialogue()
+		{
+			txt_Dialogue.text = dialogue[cnt].dialogue;
+			sprite_StandingCG.sprite = dialogue[cnt].cg;
+			cnt++;
+		}
+
+		private void Start()
+		{
+			cnt = 0;
+			isDialogue = true;
+		}
+
+		void Update()
+		{
+			if(isDialogue)
+			{
+				if(Input.GetKeyDown(KeyCode.Space))
+				{
+					if(cnt < dialogue.Length)
+						NextDialogue();
+					else
+					{
+						OnOff(false);
+						SceneManager.LoadScene(1); //장면전환
+					}
+				}
+			}
+		}
+	}
+	```
+	</details>
+
+
+	
               
 **- 구현시 어려웠던 점** 
 1. 햄버거 게임 : 부모-자식 없애기
