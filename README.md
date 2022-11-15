@@ -16,10 +16,17 @@
 **- 스토리 :** 요리와 관련된 3가지 미니게임을 모두 성공해야만 **요리의 신** 타이틀을 얻을 수 있는 게임				
 
 **- 구성 :**        
-<img width="654" alt="image" src="https://user-images.githubusercontent.com/101172040/200779493-ba6c9525-3e57-4891-88df-9461bb9cc172.png">        
+       
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;햄버거 쌓기 게임
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;조합 맞추기 게임
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;잡채 만들기 게임
+  |<img width="654" alt="image" src="https://user-images.githubusercontent.com/101172040/200779493-ba6c9525-3e57-4891-88df-9461bb9cc172.png"> |대회명|팀명|수상내역|주제|
+|:-----:|:----------:|:-------:|:----:|:----:|
+|2019|한림대학교 1차 창업동아리 경진대회|사랑보다 뜨겁게|동상|발열깔창|
+||한림대학교 최종 창업동아리 경진대회|사랑보다 뜨겁게|동상|발열깔창|
+||제 20회 강원대 대학생 창업 경진대회|사랑보다 뜨겁게|장려상|발열깔창|
+|2020|최종 한림대학교 창업동아리 경진대회|E&S|은상|자동으로 풀리는 안전벨트|
+||한림대학교 캡스톤디자인 경진대회|Edu-Unit|은상|Covid-19 교육용 VR 프로그램|
 
 
 **- 주요 구현 기능**        
