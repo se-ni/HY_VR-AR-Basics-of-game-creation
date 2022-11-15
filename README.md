@@ -1,14 +1,19 @@
 ## *VR-AR-Basics of game creation*
 ### :video_game:&nbsp;&nbsp;**Term Project for 2019**&nbsp;&nbsp;:video_game:
-**Team Members:** 박세은, 윤희연, 최애림
+**Team Members**	
 
+\- 박세은 : NPC 대화 구현 및 게임 코드 작성 및 제작				
+
+\- 윤희연 : 장면 전환 구현 및 게임 코드 작성 및 제작				
+
+\- 최애림 : Main Scene 및 전반적인 게임의 틀 제작 및 구현				
 
 **- Title :** 요리의 신
 
 
 **- 개발 툴 :** Unity 3D
 
-**- 스토리 :** 요리와 관련된 3가지 미니게임을 모두 성공해야만 **요리의 신** 타이틀을 얻을 수 있는 게임
+**- 스토리 :** 요리와 관련된 3가지 미니게임을 모두 성공해야만 **요리의 신** 타이틀을 얻을 수 있는 게임				
 
 **- 구성 :**        
 <img width="654" alt="image" src="https://user-images.githubusercontent.com/101172040/200779493-ba6c9525-3e57-4891-88df-9461bb9cc172.png">        
