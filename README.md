@@ -2,11 +2,11 @@
 ### :video_game:&nbsp;&nbsp;**Term Project for 2019**&nbsp;&nbsp;:video_game:
 **Team Members**	
 
-\- 박세은 : NPC 대화 구현 및 게임 코드 작성 및 제작				
+ \- 박세은 : NPC 대화 구현 및 게임 코드 작성 및 제작				
 
-\- 윤희연 : 장면 전환 구현 및 게임 코드 작성 및 제작				
+ \- 윤희연 : 장면 전환 구현 및 게임 코드 작성 및 제작				
 
-\- 최애림 : Main Scene 및 전반적인 게임의 틀 제작 및 구현	
+ \- 최애림 : Main Scene 및 전반적인 게임의 틀 제작 및 구현	
 			
 
 **- Title :** 요리의 신				
