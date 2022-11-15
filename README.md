@@ -7,6 +7,7 @@
 \- 윤희연 : 장면 전환 구현 및 게임 코드 작성 및 제작				
 
 \- 최애림 : Main Scene 및 전반적인 게임의 틀 제작 및 구현				
+<img width="270" alt="스크린샷 2022-11-15 오후 2 33 19" src="https://user-images.githubusercontent.com/101172040/201835358-3c25e5a3-af81-47aa-a6d9-55ec922c1a4d.png">
 
 **- Title :** 요리의 신
 
