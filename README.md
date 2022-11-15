@@ -9,13 +9,14 @@
  \- 최애림 : Main Scene 및 전반적인 게임의 틀 제작 및 구현	
 			
 
-**- Title :** 요리의 신				
+**\- Title :** 요리의 신				
 
-**- 개발 툴 :** Unity 3D
+**\- 개발 툴 :** Unity 3D
 
-**- 스토리 :** 요리와 관련된 3가지 미니게임을 모두 성공해야만 **요리의 신** 타이틀을 얻을 수 있는 게임				
+**\- 스토리 :** 요리와 관련된 3가지 미니게임을 모두 성공해야만 **요리의 신** 타이틀을 얻을 수 있는 게임				
 
-**- 구성 **        
+**\-구성 : **				
+
        
  |<img width="270" alt="햄버거 게임" src="https://user-images.githubusercontent.com/101172040/201835580-7e2e3ed1-739e-4b8c-aa06-67fdb09ec7e8.png"> |<img width="270" alt="중식 조합 맞추기 게임" src="https://user-images.githubusercontent.com/101172040/201835736-ffd8bffb-88b0-40e9-9e6e-2e487d50baca.png">|<img width="270" alt="잡채 만들기 게임" src="https://user-images.githubusercontent.com/101172040/201835783-233e871b-f72a-44ed-930f-976b97be2029.png">|
 |:-----:|:----------:|:-------:
