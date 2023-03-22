@@ -24,7 +24,7 @@
 	<details>
 	<summary>코드</summary>
 
-	``` C
+	```C
 	if(Input.GetKeyDown(KeyCode.Return) // Enter
 		{
 			if(burger[0] == answer[0] && burger[1] == answer[1] && burger[2] == answer[2]
@@ -44,7 +44,7 @@
 	<details>
 	<summary>코드</summary>
 
-	``` C
+	```C
 	Public class Colli : MonoBehaviour
 	{
 		GameObject base bread = null ;
@@ -70,11 +70,11 @@
 	```
 	</details>
 *****              
-**2. Canvas를 이용한 NPC 대화 창 및 버튼 클릭 이벤트(장면 전환 등) 코드 구현**
+**2. Canvas를 이용한 NPC 대화 창 및 버튼 클릭 이벤트(장면 전환 등) 코드 구현**					
 	<details>
 	<summary>코드</summary>
-
-	``` C
+		
+		
 	public class Dialogue
 	{
 		[TextArea]
@@ -130,9 +130,8 @@
 			}
 		}
 	}
-	```
-	</details>
-
+		
+		
 <h2>구현시 어려웠던 점</h2>
 1. 햄버거 게임의 부모-자식 없애기
 
